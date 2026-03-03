@@ -1,0 +1,6 @@
+fastapi==0.124.4
+geopy==2.4.1
+pydantic-settings==2.8.1
+python-dotenv==1.0.1
+sqlalchemy==2.0.48
+uvicorn==0.33.0
