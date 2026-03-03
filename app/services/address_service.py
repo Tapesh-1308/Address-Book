@@ -72,10 +72,6 @@ def get_addresses_within_distance(
     distance_km: float
 ) -> List[Address]:
 
-    if distance_km <= 0:
-        logger.warning("Invalid distance provided for nearby search")
-        raise HTTPException(status_code=400, detail="Distance must be positive")
-
     origin = (latitude, longitude)
 
     addresses = db.query(Address).all()
