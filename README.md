@@ -30,8 +30,8 @@ Minimal FastAPI application for managing addresses with geospatial search.
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd address_book
+git clone https://github.com/Tapesh-1308/Address-Book.git
+cd Address-Book
 ```
 
 ### 2. Create virtual environment
